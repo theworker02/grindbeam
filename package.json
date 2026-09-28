@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/grindbeam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grind and reshape beam text streams with deterministic transforms.",
+  "bin": {
+    "grindbeam": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/grindbeam.git"
+  },
+  "homepage": "https://theworker02.github.io/grindbeam/",
+  "keywords": [
+    "grind",
+    "beam",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
